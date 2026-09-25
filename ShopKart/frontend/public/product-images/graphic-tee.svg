@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <pattern id="dot-grid-tee" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="12" r="2.5" fill="#121212" opacity="0.18"/>
+    </pattern>
+  </defs>
+
+  <rect width="600" height="400" fill="#FF6B8B"/>
+  <rect width="600" height="400" fill="url(#dot-grid-tee)"/>
+
+  <!-- Neo Brutalist Header Tag -->
+  <g transform="translate(40, 35)">
+    <rect width="90" height="28" rx="4" fill="#121212"/>
+    <text x="45" y="19" fill="#00F0FF" font-family="'Space Grotesk', sans-serif" font-weight="900" font-size="12" text-anchor="middle" letter-spacing="1">100% COTTON</text>
+  </g>
+
+  <!-- Hard Shadow of T-shirt -->
+  <path d="M 230 88 L 140 148 L 180 208 L 220 188 L 220 348 L 400 348 L 400 188 L 440 208 L 480 148 L 390 88 Q 310 128 230 88 Z" fill="#121212" transform="translate(8, 8)"/>
+
+  <!-- T-Shirt Body -->
+  <path d="M 230 88 L 140 148 L 180 208 L 220 188 L 220 348 L 400 348 L 400 188 L 440 208 L 480 148 L 390 88 Q 310 128 230 88 Z" fill="#FFFFFF" stroke="#121212" stroke-width="6" stroke-linejoin="round"/>
+
+  <!-- Collar Crewneck -->
+  <path d="M 270 94 Q 310 134 350 94" fill="#FFE600" stroke="#121212" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Graphic Print Box on Chest -->
+  <rect x="250" y="150" width="120" height="120" rx="6" fill="#121212"/>
+  <!-- Inner art: Acid Smiley with X eyes -->
+  <circle cx="310" cy="210" r="42" fill="#FFE600" stroke="#121212" stroke-width="4"/>
+  <!-- X eye left -->
+  <path d="M 292 196 L 302 206 M 302 196 L 292 206" stroke="#121212" stroke-width="4" stroke-linecap="round"/>
+  <!-- X eye right -->
+  <path d="M 318 196 L 328 206 M 328 196 L 318 206" stroke="#121212" stroke-width="4" stroke-linecap="round"/>
+  <!-- Grin -->
+  <path d="M 292 222 Q 310 240 328 222" fill="none" stroke="#121212" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Streetwear Badge Under Box -->
+  <rect x="260" y="282" width="100" height="20" rx="3" fill="#00F0FF" stroke="#121212" stroke-width="3"/>
+  <text x="310" y="296" fill="#121212" font-family="'Space Grotesk', sans-serif" font-weight="900" font-size="9" text-anchor="middle" letter-spacing="1">NO SIGNAL // 99</text>
+
+  <!-- Hanging price/size tag -->
+  <line x1="160" y1="180" x2="135" y2="215" stroke="#121212" stroke-width="3"/>
+  <rect x="115" y="215" width="40" height="55" rx="4" fill="#FFE600" stroke="#121212" stroke-width="3.5"/>
+  <circle cx="135" cy="225" r="3" fill="#121212"/>
+  <text x="135" y="250" fill="#121212" font-family="'Space Grotesk', sans-serif" font-weight="900" font-size="12" text-anchor="middle">XL</text>
+
+  <!-- Sparkles -->
+  <path d="M 500 240 Q 515 250 515 265 Q 515 250 530 240 Q 515 230 515 215 Q 515 230 500 240 Z" fill="#121212" />
+</svg>

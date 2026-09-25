@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <pattern id="dot-grid-sg" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="12" r="2.5" fill="#121212" opacity="0.18"/>
+    </pattern>
+  </defs>
+
+  <rect width="600" height="400" fill="#FB923C"/>
+  <rect width="600" height="400" fill="url(#dot-grid-sg)"/>
+
+  <!-- Top Badge -->
+  <g transform="translate(450, 40)">
+    <rect width="110" height="28" rx="4" fill="#121212"/>
+    <text x="55" y="19" fill="#FB923C" font-family="'Space Grotesk', sans-serif" font-weight="900" font-size="12" text-anchor="middle" letter-spacing="1">UV400 POLAR</text>
+  </g>
+
+  <!-- Hard Drop Shadow for the Sunglasses -->
+  <g fill="#121212" transform="translate(10, 10)">
+    <!-- Left Lens Frame -->
+    <path d="M 120 160 L 260 160 Q 270 270 190 270 Q 110 270 120 160 Z"/>
+    <!-- Right Lens Frame -->
+    <path d="M 340 160 L 480 160 Q 490 270 410 270 Q 330 270 340 160 Z"/>
+    <!-- Top Brow Bar Bridge -->
+    <rect x="120" y="140" width="360" height="20" rx="4"/>
+  </g>
+
+  <!-- Temples (Sides folded back) -->
+  <line x1="120" y1="150" x2="80" y2="120" stroke="#121212" stroke-width="8" stroke-linecap="round"/>
+  <line x1="480" y1="150" x2="520" y2="120" stroke="#121212" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Top Brow Bar Bridge (Chunky Black) -->
+  <rect x="120" y="140" width="360" height="16" rx="4" fill="#121212"/>
+  <!-- Middle Bridge -->
+  <path d="M 260 175 Q 300 165 340 175" fill="none" stroke="#121212" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Left Lens (Yellow/Amber Polarized Tint) -->
+  <path d="M 120 155 L 260 155 Q 270 265 190 265 Q 110 265 120 155 Z" fill="#FFE600" stroke="#121212" stroke-width="8" stroke-linejoin="round"/>
+  <!-- Glare Slash Lines on Left Lens -->
+  <polygon points="150,170 175,170 135,245 125,245" fill="#FFFFFF" opacity="0.8"/>
+  <polygon points="185,170 195,170 155,245 148,245" fill="#FFFFFF" opacity="0.8"/>
+
+  <!-- Right Lens (Yellow/Amber Polarized Tint) -->
+  <path d="M 340 155 L 480 155 Q 490 265 410 265 Q 330 265 340 155 Z" fill="#FFE600" stroke="#121212" stroke-width="8" stroke-linejoin="round"/>
+  <!-- Glare Slash Lines on Right Lens -->
+  <polygon points="370,170 395,170 355,245 345,245" fill="#FFFFFF" opacity="0.8"/>
+  <polygon points="405,170 415,170 375,245 368,245" fill="#FFFFFF" opacity="0.8"/>
+
+  <!-- Golden Rivet Accents on Frame Corners -->
+  <circle cx="130" cy="148" r="4" fill="#FFE600" stroke="#121212" stroke-width="2"/>
+  <circle cx="470" cy="148" r="4" fill="#FFE600" stroke="#121212" stroke-width="2"/>
+
+  <!-- Sparkles -->
+  <path d="M 70 240 Q 80 250 80 260 Q 80 250 90 240 Q 80 230 80 220 Q 80 230 70 240 Z" fill="#121212"/>
+  <path d="M 500 240 Q 510 250 510 260 Q 510 250 520 240 Q 510 230 510 220 Q 510 230 500 240 Z" fill="#121212"/>
+</svg>

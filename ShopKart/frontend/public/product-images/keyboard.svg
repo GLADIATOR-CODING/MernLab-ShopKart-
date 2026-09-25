@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <pattern id="dot-grid" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="12" r="2.5" fill="#121212" opacity="0.18"/>
+    </pattern>
+    <filter id="brutal-shadow">
+      <feDropShadow dx="8" dy="8" stdDeviation="0" flood-color="#121212" flood-opacity="1" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="400" fill="#FFE600"/>
+  <rect width="600" height="400" fill="url(#dot-grid)"/>
+
+  <!-- Neo-brutalist decorative accents -->
+  <g transform="translate(480, 40)">
+    <rect width="80" height="28" rx="4" fill="#121212"/>
+    <text x="40" y="18" fill="#FFE600" font-family="'Space Grotesk', Impact, sans-serif" font-weight="900" font-size="12" text-anchor="middle" letter-spacing="1">MECH-01</text>
+  </g>
+  <path d="M 40 50 L 50 35 L 65 35 L 55 50 Z" fill="#121212" />
+  <path d="M 60 50 L 70 35 L 85 35 L 75 50 Z" fill="#121212" />
+
+  <!-- Keyboard Base with Hard Shadow -->
+  <!-- Shadow plate -->
+  <rect x="88" y="108" width="440" height="220" rx="14" fill="#121212" />
+  <!-- Main Case -->
+  <rect x="80" y="100" width="440" height="220" rx="14" fill="#FFFFFF" stroke="#121212" stroke-width="6"/>
+
+  <!-- Inner Plate -->
+  <rect x="104" y="124" width="392" height="172" rx="8" fill="#F3F4F6" stroke="#121212" stroke-width="4"/>
+
+  <!-- Coiled USB Cable -->
+  <path d="M 300 100 Q 300 60 260 60 T 220 60 T 180 60 L 140 60" fill="none" stroke="#121212" stroke-width="6" stroke-linecap="round"/>
+  <rect x="286" y="80" width="28" height="20" rx="3" fill="#00F0FF" stroke="#121212" stroke-width="4"/>
+
+  <!-- Row 1 Keys -->
+  <!-- ESC -->
+  <rect x="116" y="136" width="38" height="32" rx="4" fill="#FF5277" stroke="#121212" stroke-width="3"/>
+  <text x="135" y="156" fill="#121212" font-family="'Space Grotesk', sans-serif" font-weight="900" font-size="10" text-anchor="middle">ESC</text>
+  <!-- Function Keys -->
+  <rect x="166" y="136" width="32" height="32" rx="4" fill="#121212"/>
+  <rect x="206" y="136" width="32" height="32" rx="4" fill="#121212"/>
+  <rect x="246" y="136" width="32" height="32" rx="4" fill="#121212"/>
+  <rect x="286" y="136" width="32" height="32" rx="4" fill="#121212"/>
+  <rect x="334" y="136" width="32" height="32" rx="4" fill="#121212"/>
+  <rect x="374" y="136" width="32" height="32" rx="4" fill="#121212"/>
+  <rect x="414" y="136" width="32" height="32" rx="4" fill="#121212"/>
+  <!-- DEL -->
+  <rect x="454" y="136" width="32" height="32" rx="4" fill="#00F0FF" stroke="#121212" stroke-width="3"/>
+
+  <!-- Row 2 Keys (QWERTY) -->
+  <rect x="116" y="176" width="46" height="32" rx="4" fill="#FFE600" stroke="#121212" stroke-width="3"/>
+  <rect x="170" y="176" width="30" height="32" rx="4" fill="#FFFFFF" stroke="#121212" stroke-width="3"/>
+  <!-- W Key Highlight -->
+  <rect x="208" y="176" width="30" height="32" rx="4" fill="#00F0FF" stroke="#121212" stroke-width="3"/>
+  <text x="223" y="196" fill="#121212" font-family="'Space Grotesk', sans-serif" font-weight="900" font-size="12" text-anchor="middle">W</text>
+  <rect x="246" y="176" width="30" height="32" rx="4" fill="#FFFFFF" stroke="#121212" stroke-width="3"/>
+  <rect x="284" y="176" width="30" height="32" rx="4" fill="#FFFFFF" stroke="#121212" stroke-width="3"/>
+  <rect x="322" y="176" width="30" height="32" rx="4" fill="#FFFFFF" stroke="#121212" stroke-width="3"/>
+  <rect x="360" y="176" width="30" height="32" rx="4" fill="#FFFFFF" stroke="#121212" stroke-width="3"/>
+  <rect x="398" y="176" width="30" height="32" rx="4" fill="#FFFFFF" stroke="#121212" stroke-width="3"/>
+  <!-- Backspace -->
+  <rect x="436" y="176" width="50" height="32" rx="4" fill="#FF5277" stroke="#121212" stroke-width="3"/>
+
+  <!-- Row 3 Keys (ASDF) -->
+  <rect x="116" y="216" width="54" height="32" rx="4" fill="#121212"/>
+  <!-- A S D Keys -->
+  <rect x="178" y="216" width="30" height="32" rx="4" fill="#00F0FF" stroke="#121212" stroke-width="3"/>
+  <text x="193" y="236" fill="#121212" font-family="'Space Grotesk', sans-serif" font-weight="900" font-size="12" text-anchor="middle">A</text>
+  <rect x="216" y="216" width="30" height="32" rx="4" fill="#00F0FF" stroke="#121212" stroke-width="3"/>
+  <text x="231" y="236" fill="#121212" font-family="'Space Grotesk', sans-serif" font-weight="900" font-size="12" text-anchor="middle">S</text>
+  <rect x="254" y="216" width="30" height="32" rx="4" fill="#00F0FF" stroke="#121212" stroke-width="3"/>
+  <text x="269" y="236" fill="#121212" font-family="'Space Grotesk', sans-serif" font-weight="900" font-size="12" text-anchor="middle">D</text>
+  <rect x="292" y="216" width="30" height="32" rx="4" fill="#FFFFFF" stroke="#121212" stroke-width="3"/>
+  <rect x="330" y="216" width="30" height="32" rx="4" fill="#FFFFFF" stroke="#121212" stroke-width="3"/>
+  <rect x="368" y="216" width="30" height="32" rx="4" fill="#FFFFFF" stroke="#121212" stroke-width="3"/>
+  <!-- Return Key -->
+  <rect x="406" y="216" width="80" height="32" rx="4" fill="#A3E635" stroke="#121212" stroke-width="3"/>
+  <text x="446" y="236" fill="#121212" font-family="'Space Grotesk', sans-serif" font-weight="900" font-size="10" text-anchor="middle">ENTER ↵</text>
+
+  <!-- Row 4 Keys (Bottom Row + Spacebar) -->
+  <rect x="116" y="256" width="44" height="30" rx="4" fill="#121212"/>
+  <rect x="168" y="256" width="38" height="30" rx="4" fill="#121212"/>
+  <!-- Big Spacebar -->
+  <rect x="214" y="256" width="180" height="30" rx="5" fill="#FFE600" stroke="#121212" stroke-width="3.5"/>
+  <rect x="402" y="256" width="38" height="30" rx="4" fill="#121212"/>
+  <rect x="448" y="256" width="38" height="30" rx="4" fill="#00F0FF" stroke="#121212" stroke-width="3"/>
+
+  <!-- Sparkle Accent -->
+  <path d="M 65 315 Q 75 325 75 335 Q 75 325 85 315 Q 75 305 75 295 Q 75 305 65 315 Z" fill="#121212" />
+  <path d="M 520 190 Q 535 200 535 215 Q 535 200 550 190 Q 535 180 535 165 Q 535 180 520 190 Z" fill="#121212" />
+</svg>

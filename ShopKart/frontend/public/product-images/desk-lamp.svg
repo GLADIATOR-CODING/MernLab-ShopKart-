@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <pattern id="dot-grid-lamp" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="12" r="2.5" fill="#121212" opacity="0.18"/>
+    </pattern>
+  </defs>
+
+  <rect width="600" height="400" fill="#C084FC"/>
+  <rect width="600" height="400" fill="url(#dot-grid-lamp)"/>
+
+  <!-- Top Badge -->
+  <g transform="translate(40, 35)">
+    <rect width="110" height="28" rx="4" fill="#121212"/>
+    <text x="55" y="19" fill="#FFE600" font-family="'Space Grotesk', sans-serif" font-weight="900" font-size="12" text-anchor="middle" letter-spacing="1">RAW CONCRETE</text>
+  </g>
+
+  <!-- Glowing Light Burst from Bulb -->
+  <circle cx="360" cy="150" r="100" fill="#FEF08A" opacity="0.4"/>
+  <!-- Radiating light rays -->
+  <g stroke="#121212" stroke-width="5" stroke-linecap="round">
+    <line x1="360" y1="20" x2="360" y2="45" />
+    <line x1="450" y1="60" x2="430" y2="80" />
+    <line x1="490" y1="150" x2="465" y2="150" />
+    <line x1="450" y1="240" x2="430" y2="220" />
+    <line x1="270" y1="60" x2="290" y2="80" />
+  </g>
+
+  <!-- Concrete Base Shadow -->
+  <polygon points="188,348 308,348 278,298 158,298" fill="#121212"/>
+  <!-- Concrete Base (Solid block) -->
+  <polygon points="180,340 300,340 270,290 150,290" fill="#E2E8F0" stroke="#121212" stroke-width="6" stroke-linejoin="round"/>
+  <!-- Front face of base -->
+  <polygon points="180,340 300,340 300,355 180,355" fill="#CBD5E1" stroke="#121212" stroke-width="5" stroke-linejoin="round"/>
+  <!-- Red toggle switch on base -->
+  <circle cx="215" cy="315" r="9" fill="#FF5277" stroke="#121212" stroke-width="3"/>
+  <rect x="212" y="306" width="6" height="14" rx="2" fill="#121212"/>
+
+  <!-- Metal Arm Shadow -->
+  <path d="M 248 298 L 228 178 L 348 108" fill="none" stroke="#121212" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Metal Arm (Yellow) -->
+  <path d="M 240 290 L 220 170 L 340 100" fill="none" stroke="#FFE600" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 240 290 L 220 170 L 340 100" fill="none" stroke="#121212" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Arm Joints (Cyan Knobs) -->
+  <circle cx="240" cy="290" r="14" fill="#00F0FF" stroke="#121212" stroke-width="4"/>
+  <circle cx="220" cy="170" r="14" fill="#00F0FF" stroke="#121212" stroke-width="4"/>
+  <circle cx="340" cy="100" r="14" fill="#00F0FF" stroke="#121212" stroke-width="4"/>
+
+  <!-- Lamp Shade / Socket -->
+  <polygon points="325,100 375,100 395,140 305,140" fill="#121212"/>
+  <polygon points="320,95 370,95 390,135 300,135" fill="#FF5277" stroke="#121212" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- Glowing Exposed Bulb -->
+  <!-- Bulb Shadow -->
+  <path d="M 333 148 C 313 188 333 228 353 228 C 373 228 393 188 373 148 Z" fill="#121212"/>
+  <!-- Bulb Glass (Warm Yellow) -->
+  <circle cx="345" cy="175" r="30" fill="#FFE600" stroke="#121212" stroke-width="5"/>
+  <rect x="330" y="135" width="30" height="15" fill="#E2E8F0" stroke="#121212" stroke-width="4"/>
+  <!-- Filament -->
+  <path d="M 336 150 L 342 175 L 348 175 L 354 150" fill="none" stroke="#FF5277" stroke-width="3" stroke-linecap="round"/>
+</svg>

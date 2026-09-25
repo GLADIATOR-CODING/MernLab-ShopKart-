@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <pattern id="dot-grid-pl" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="12" r="2.5" fill="#121212" opacity="0.18"/>
+    </pattern>
+  </defs>
+
+  <rect width="600" height="400" fill="#C084FC"/>
+  <rect width="600" height="400" fill="url(#dot-grid-pl)"/>
+
+  <!-- Top Badge -->
+  <g transform="translate(40, 35)">
+    <rect width="110" height="28" rx="4" fill="#121212"/>
+    <text x="55" y="19" fill="#FFE600" font-family="'Space Grotesk', sans-serif" font-weight="900" font-size="12" text-anchor="middle" letter-spacing="1">LIVING DESK</text>
+  </g>
+
+  <!-- Ground Shadow -->
+  <ellipse cx="308" cy="348" rx="140" ry="20" fill="#121212"/>
+
+  <!-- Concrete Planter Cube (Isometric / Brutalist) -->
+  <!-- Pot Shadow -->
+  <polygon points="218,338 378,338 418,258 258,258" fill="#121212"/>
+
+  <!-- Concrete Drainage Saucer -->
+  <polygon points="190,335 390,335 415,310 215,310" fill="#CBD5E1" stroke="#121212" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- Cube Planter - Front Face -->
+  <polygon points="210,320 370,320 370,220 210,220" fill="#E2E8F0" stroke="#121212" stroke-width="6" stroke-linejoin="round"/>
+
+  <!-- Cube Planter - Right Face (Darker Tone) -->
+  <polygon points="370,320 420,270 420,170 370,220" fill="#94A3B8" stroke="#121212" stroke-width="6" stroke-linejoin="round"/>
+
+  <!-- Cube Planter - Top Rim (Soil Surface) -->
+  <polygon points="210,220 260,170 420,170 370,220" fill="#334155" stroke="#121212" stroke-width="6" stroke-linejoin="round"/>
+
+  <!-- Front Brutalist Stamp Graphic -->
+  <rect x="250" y="250" width="80" height="30" rx="3" fill="#FFE600" stroke="#121212" stroke-width="3"/>
+  <text x="290" y="270" fill="#121212" font-family="'Space Grotesk', sans-serif" font-weight="900" font-size="11" text-anchor="middle">SUCCULENT</text>
+
+  <!-- Succulent Leaves Sprouting Out (Chunky Geometric Flora) -->
+  <!-- Background leaves -->
+  <path d="M 315 190 Q 250 140 270 100 Q 315 120 315 190 Z" fill="#4ADE80" stroke="#121212" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M 315 190 Q 380 140 360 100 Q 315 120 315 190 Z" fill="#22C55E" stroke="#121212" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- Center tall leaves -->
+  <path d="M 315 190 Q 315 90 315 70 Q 345 100 315 190 Z" fill="#A3E635" stroke="#121212" stroke-width="5" stroke-linejoin="round"/>
+  <line x1="315" y1="80" x2="315" y2="180" stroke="#121212" stroke-width="3"/>
+
+  <!-- Foreground chunky leaves -->
+  <path d="M 315 190 Q 230 180 230 150 Q 280 160 315 190 Z" fill="#4ADE80" stroke="#121212" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M 315 190 Q 400 180 400 150 Q 350 160 315 190 Z" fill="#86EFAC" stroke="#121212" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- Sparkles -->
+  <path d="M 160 180 Q 170 190 170 200 Q 170 190 180 180 Q 170 170 170 160 Q 170 170 160 180 Z" fill="#FFE600" stroke="#121212" stroke-width="2"/>
+  <path d="M 450 120 Q 460 130 460 140 Q 460 130 470 120 Q 460 110 460 100 Q 460 110 450 120 Z" fill="#00F0FF" stroke="#121212" stroke-width="2"/>
+</svg>
